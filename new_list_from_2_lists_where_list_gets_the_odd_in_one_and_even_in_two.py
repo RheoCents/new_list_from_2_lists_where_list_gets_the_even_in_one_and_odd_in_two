@@ -26,5 +26,7 @@ for i in range (0, 5, 1):
 for i in range (5):
     if given_list_2[i] % 2 == 0:
         new_list_2.append(given_list_2[i]) 
+
 print(new_list_1)
 print(new_list_2)
+print(str(new_list_1) + str(new_list_2))
