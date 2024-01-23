@@ -16,5 +16,10 @@ given_list_2.append(90)
 
 len_list_of_all = int(len(given_list_1)) + int(len(given_list_2))
 
+for i in range (0, 5, 1):
+    if i < 5:
+        if given_list_1[i] % 2 == 0:
+            new_list_1 = list()
+            new_list_1.append(given_list_1[i])
 
-print(len_list_of_all)
+print (new_list_1)
