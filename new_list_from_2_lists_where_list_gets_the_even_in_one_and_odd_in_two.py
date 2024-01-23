@@ -14,10 +14,7 @@ given_list_2.append(60)
 given_list_2.append(75)
 given_list_2.append(90)
 
-len_list_of_all = list()
-len_list_of_all.append(given_list_1)
-len_list_of_all.append(given_list_2)
+len_list_of_all = int(len(given_list_1)) + int(len(given_list_2))
+
 
 print(len_list_of_all)
-print(len(len_list_of_all))
-    
