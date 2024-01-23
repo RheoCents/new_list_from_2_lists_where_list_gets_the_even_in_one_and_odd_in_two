@@ -14,22 +14,14 @@ given_list_2.append(60)
 given_list_2.append(75)
 given_list_2.append(90)
 
-len_list_of_all = int(len(given_list_1)) + int(len(given_list_2))
+new_list = list()
 
-new_list_1 = []
-new_list_2 = []
-new_list = []
-new_list.append(new_list_1)
-new_list.append(new_list_2)
-for i in range (0, 5, 1):
+for i in range (5):
     if given_list_1[i] % 2 != 0:
-        new_list_1.append(given_list_1[i])
+        new_list.append(given_list_1[i])
 
 for i in range (5):
     if given_list_2[i] % 2 == 0:
-        new_list_2.append(given_list_2[i]) 
+        new_list.append(given_list_2[i]) 
 
-print(new_list_1)
-print(new_list_2)
-
-print(new_list)
+print('The new list will be:',new_list)
